@@ -7,10 +7,10 @@
         <title>
             Foundation for Sites
         </title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
         <link rel="stylesheet" href="{{ URL::asset('css/foundation.css') }}"/>
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}"/>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+        <!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet"> -->
 
 
     </head>
@@ -47,6 +47,9 @@
                                 8
                             </span>
                         </a>
+                    </li>
+                    <li>
+                        <a href="/signup">Signup</a>
                     </li>
                 </ol>
             </div>
